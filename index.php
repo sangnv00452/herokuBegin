@@ -14,7 +14,7 @@ date_default_timezone_get("Asia/Singapore");
     <link rel="stylesheet" href="src/css/main.css">
     <script src="libs/js/jquery-1.10.2.js"></script>
     <script src="libs/js/bootstrap.min.js"></script>
-    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=617030105029713"></script>
+    <script id="facebook-jssdk" async="" src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=567829509990686"></script>
 </head>
 
 <body>
@@ -30,7 +30,7 @@ date_default_timezone_get("Asia/Singapore");
         });
 
         FB.init({
-            appId : '617030105029713', // App ID
+            appId : '567829509990686', // App ID
             channelUrl : 'https://microsoft.mashwire.com.sg/channel.html',
             status : true, // check login status
             cookie : true, // enable cookies to allow the server to access
@@ -103,7 +103,7 @@ date_default_timezone_get("Asia/Singapore");
         js = d.createElement('script');
         js.id = id;
         js.async = true;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=528207350609924";
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=567829509990686";
         d.getElementsByTagName('head')[0].appendChild(js);
     }(document));
 </script>
@@ -113,7 +113,7 @@ date_default_timezone_get("Asia/Singapore");
     // require_once ('server/Tracker.php');
     // $tracker = new Tracker();
 
-    $app_id = 617030105029713;
+    $app_id = 567829509990686;
     $app_secret = 'a7b0fd1780888d4472a7b1de24554dc0';
     $config = array('appId' => $app_id, 'secret' => $app_secret);
     $facebook = new Facebook($config);
